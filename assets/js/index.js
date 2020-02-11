@@ -1,10 +1,12 @@
 $(document).ready(function() {
     $('a').click(function(event) {
-        event.preventDefault();
 
         let target = $(this).attr('href');
 
-        $("html, body").animate({ scrollTop: $(target).offset().top }, 1000);
+        if (!target.includes('http')) {
+            event.preventDefault();
+            $("html, body").animate({ scrollTop: $(target).offset().top }, 1000);
+        }
     })
 
     var btn = $('#btnBackTop');
