@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap');
+
+/** Custom **/
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0px !important;
+    padding: 0px !important;
+    background: #fcfcfc;
+}
+@media (max-width: 1366px) {
+    .container {
+        padding-left: 110px !important;
+    }
+}
+.margin-bottom-50 {
+    margin-bottom: 50px;
+}
+.h1 {
+    font-size: 52px;
+    font-weight: 900 !important;
+    text-align: left !important;
+    font: Black 52px/49px Lato !important;
+    letter-spacing: 0;
+    color: #65A949;
+}
+.h6 {
+    text-align: left;
+    font: Bold 17px/17px Lato;
+    letter-spacing: 0;
+    color: #5A9A40;
+}
+.padding-left-33 {
+    padding-left: 33px;
+}
+
+/** End Custom **/
+
+/** Menu **/
+
+#navbar-top {
+    width: 900px;
+    margin: 0 auto 0 185px;
+}
+#navbar {
+    position: relative;
+    background: #072F5E 0% 0% no-repeat padding-box;
+    height: 15vh;
+    max-height: 15vh;
+    min-height: 15vh;
+}
+.navbar {
+    padding-top: 5vh;
+}
+.navbar-nav {
+    margin-left: 50px;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+    text-align: left;
+    font: Light 14px/17px Lato !important;
+    font-weight: lighter  !important;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+@media (min-width: 992px) {
+    .navbar ul.nav, .navbar .soc-list {
+        list-style: none;
+        float: left;
+        z-index: 5;
+        margin: 0;
+        margin-left: 100px;
+    }
+}
+
+/** End Menu **/
+
+/** Slider **/
+@media (max-width: 1366px) {
+    #botao-e-imagem {
+        height: 90vh !important;
+        min-height: 90vh !important;
+        max-height: 90vh !important;
+    }
+    .carousel-indicators {
+        bottom: 150px !important;
+    }
+}
+#botao-e-imagem #slider img {
+    width: 100%;
+    height: 70vh;
+    opacity: 0.1 !important;
+}
+.carousel-caption {
+    text-align: left;
+    top: 0;
+}
+.carousel-indicators {
+    bottom: 250px;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    border-radius: 50%;
+    opacity: 1;
+    float: left;
+}
+.carousel-indicators .active {
+    background: #65A949 0% 0% no-repeat padding-box;
+}
+#botao-e-imagem {
+    position: relative;
+    display: block;
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+    height: 70vh;
+    min-height: 70vh;
+    max-height: 70vh;
+    background:#072F5E;
+}
+#botao-e-imagem:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 26vh;
+    background: url(../images/menu-curve.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: -1px;
+    left: -1px;
+}
+#botao-e-imagem .container {
+    padding-top: 3vh;
+    padding: 15px !important;
+}
+#box-botao-e-imagem {
+    margin-top: 10vh;
+}
+#gnv {
+    text-align: left;
+    font: Black 52px/52px Lato;
+    font-size: 52px;
+    font-weight: 900 !important;
+    letter-spacing: 0;
+    color: #65A949;
+}
+#desconto {
+    text-align: left;
+    font: Light 52px/52px Lato !important;
+    font-weight: 300 !important;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+#projeto {
+    text-align: left;
+    font: Light 17px/17px Lato;
+    font-weight: lighter;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+#politica-publica {
+    text-align: left;
+    font: Bold 17px/17px Lato;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+.btn-saiba-mais {
+    width: 200px;
+    height: 61px;
+    padding: 10px;
+    background: #5A9A40 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    text-align: left;
+    font: Light 17px/21px Lato;
+    font-weight: lighter;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.btn-saiba-mais:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+/** End Slider **/
+
+/** Quem Somos **/
+
+#quem-somos {
+    margin-bottom: 15vh;
+    height: 40vh;
+    min-height: 40vh;
+    max-height: 40vh;
+}
+#quem-somos-texto {
+    width: 536px;
+}
+#quem-somos-texto p {
+    margin-top: 30px;
+    text-align: left;
+    font: Light 17px/17px Lato;
+    font-weight: 300;
+    letter-spacing: 0;
+    color: #696969;
+    opacity: 1;
+}
+/** End Quem Somos **/
+
+/** O que fazemos **/
+@media (max-width: 1366px) {
+    #o-que-fazemos {
+        height: 200vh !important;
+        min-height: 200vh !important;
+        max-height: 200vh !important;
+    }
+}
+#o-que-fazemos {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    padding-top: 20vh;
+    width: 100%;
+    height: 170vh;
+    min-height: 170vh;
+    max-height: 170vh;
+    border: 0px;
+    background: url(../images/bg-o-que-fazemos-consulgas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#o-que-fazemos-texto {
+    width: 536px;
+    margin-top: 50px;
+    text-align: left;
+    font: Light 17px/17px Lato;
+    font-weight: 300;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.circulo {
+    width: 76px;
+    height: 76px;
+    opacity: 1;
+    margin-left: 10px;
+}
+
+.circulo img {
+    width: 70%;
+}
+
+.descricao {
+    width: 696px;
+    text-align: left;
+    letter-spacing: 0;
+    opacity: 1;
+}
+
+.titulo {
+    text-align: left;
+    font: Bold 17px/17px Lato;
+    font-weight: bold;
+    letter-spacing: 0;
+    color: #5A9A40;
+}
+
+.ponto {
+    width: 8px;
+    height: 8px;
+    text-align: left;
+    letter-spacing: 0;
+    color: #5A9A40;
+    background-color: #5A9A40;
+    opacity: 1;
+    border-radius: 50%;
+    margin: 10px auto 0 20px;
+}
+
+.texto {
+    text-align: left;
+    font: Light 17px/17px Lato;
+    font-weight: 300;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+/** End O que fazemos **/
+
+/** Projetos **/
+@media (max-width: 1366px) {
+    #projetos {
+        height: 140vh !important;
+        min-height: 140vh !important;
+        max-height: 140vh !important;
+    }
+}
+
+#projetos {
+    position: relative;
+    width: 100%;
+    height: 120vh;
+    min-height: 120vh;
+    max-height: 120vh;
+}
+#projetos .row {
+    padding: 0px;
+    margin: 0px;
+}
+#projetos p {
+    text-align: left;
+    font: Light 17px/17px Lato;
+    font-weight: 300;
+    letter-spacing: 0;
+    color: #696969;
+    margin-top: 30px;
+    width: 276px;
+}
+
+/** End Projetos **/
+
+/** Boletim **/
+@media (max-width: 1366px) {
+    #boletim {
+        background-size: 80%;
+    }
+}
+
+#boletim {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    min-height: 60vh;
+    max-height: 60vh;
+    background-image: url("../images/boletim-full.svg");
+    background-repeat: no-repeat;
+    background-position-x: left;
+}
+#boletim p {
+    text-align: left;
+    font: Light 17px/17px Lato;
+    font-weight: 300;
+    letter-spacing: 0;
+    color: #696969;
+    opacity: 1;
+}
+.saiba-mais-boletim {
+    margin-top: 25vh;
+}
+
+/** End Boletim **/
+
+/** Fale Conosco **/
+
+@media (max-width: 1366px) {
+    #fale-conosco {
+        height: 80vh !important;
+        min-height: 80vh !important;
+        max-height: 80vh !important;
+    }
+}
+
+#fale-conosco {
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+    height: 65vh;
+    min-height: 65vh;
+    max-height: 65vh;
+}
+
+#fale-conosco .email, #fale-conosco .whatsapp {
+    text-align: left;
+    font: Light 17px/17px Lato;
+    font-weight: 300;
+    letter-spacing: 0;
+    color: #696969;
+}
+
+#fale-conosco .email img, #fale-conosco .whatsapp img {
+    margin-right: 10px;
+}
+
+.fale-conosco-formulario input {
+    width: 352px;
+    height: 28px;
+    color: #65A949;
+    border: 1px solid #65A949;
+    border-radius: 5px;
+    opacity: 0.2;
+}
+
+.fale-conosco-formulario textarea {
+    width: 352px;
+    height: 154px;
+    color: #5A9A40;
+    border: 1px solid #65A949;
+    border-radius: 5px;
+    opacity: 0.2;
+}
+
+.fale-conosco-formulario .box-enviar {
+    width: 352px;
+}
+
+.fale-conosco-formulario a {
+    width: 100px;
+    height: 34px;
+    padding: 5px;
+    background: #5A9A40 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    text-align: center;
+    font: Light 17px/21px Lato;
+    font-weight: 300;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    float: right;
+}
+
+.fale-conosco-formulario a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+/** End Fale Conosco **/
+
+/** Logo **/
+
+#logo {
+    position: relative;
+    width: 100%;
+}
+
+#logo img {
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+/** End Logo **/
+
+/** Rodape **/
+
+#rodape {
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    min-height: 30vh;
+    max-height: 30vh;
+}
+
+#rodape .sub-menu {
+    background: #65A949 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#rodape #navbar-bottom {
+    width: 900px;
+    margin: 0 auto 0 auto;
+}
+
+#rodape .navbar {
+    width: 900px !important;
+    padding: 10px;
+}
+
+#rodape .navbar-expand-sm {
+    justify-content: center;
+}
+
+#rodape .proprietario p {
+    text-align: left;
+    font: Light 13px/17px Lato;
+    letter-spacing: 0;
+    color: #696969;
+    opacity: 1;
+}
+
+#rodape .autor p {
+    text-align: right;
+    font: Light 13px/17px Lato;
+    letter-spacing: 0;
+    color: #696969;
+    opacity: 1;
+}
+
+#rodape .info {
+    width: 90%;
+    margin: 100px auto 0 auto;    
+}
+
+/** End Rodape **/
+
+/** Btn Back Top **/
+#btnBackTop {
+    display: inline-block;
+    background-color: #65A949;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+#btnBackTop::after {
+content: "\f077";
+font-family: FontAwesome;
+font-weight: normal;
+font-style: normal;
+font-size: 2em;
+line-height: 50px;
+color: #fff;
+}
+#btnBackTop:hover {
+cursor: pointer;
+text-decoration: none;
+}
+#btnBackTop:active {
+background-color: #555;
+}
+#btnBackTop.show {
+opacity: 1;
+visibility: visible;
+}
+/** End Btn Voltar ao Topo **/
