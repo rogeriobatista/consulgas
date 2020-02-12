@@ -12,6 +12,9 @@ body {
         padding-left: 110px !important;
     }
 }
+.margin-bottom-40 {
+    margin-bottom: 40px;
+}
 .margin-bottom-50 {
     margin-bottom: 50px;
 }
@@ -38,6 +41,9 @@ body {
 /** Menu **/
 
 #navbar-top {
+    position: absolute;
+    display: block;
+    z-index: 999;
     width: 900px;
     margin: 0 auto 0 185px;
 }
@@ -62,6 +68,9 @@ body {
     color: #FFFFFF;
     opacity: 1;
 }
+#navbar-top .navbar .navbar-nav .nav-item .nav-link:hover {
+     color: #65A949;
+ }
 @media (min-width: 992px) {
     .navbar ul.nav, .navbar .soc-list {
         list-style: none;
@@ -77,17 +86,21 @@ body {
 /** Slider **/
 @media (max-width: 1366px) {
     #botao-e-imagem {
-        height: 90vh !important;
-        min-height: 90vh !important;
-        max-height: 90vh !important;
+        height: 95vh !important;
+        min-height: 95vh !important;
+        max-height: 95vh !important;
     }
     .carousel-indicators {
-        bottom: 150px !important;
+        bottom: 200px !important;
+    }
+    #botao-e-imagem .container {
+        padding: 15px !important;
+        padding-top: 20vh !important;
     }
 }
 #botao-e-imagem #slider img {
     width: 100%;
-    height: 70vh;
+    height: 100%;
     opacity: 0.1 !important;
 }
 .carousel-caption {
@@ -115,9 +128,9 @@ body {
     margin: 0px;
     padding: 0;
     width: 100%;
-    height: 70vh;
-    min-height: 70vh;
-    max-height: 70vh;
+    height: 85vh;
+    min-height: 85vh;
+    max-height: 85vh;
     background:#072F5E;
 }
 #botao-e-imagem:after {
@@ -132,8 +145,8 @@ body {
     left: -1px;
 }
 #botao-e-imagem .container {
-    padding-top: 3vh;
-    padding: 15px !important;
+    padding: 15px;
+    padding-top: 17vh;
 }
 #box-botao-e-imagem {
     margin-top: 10vh;
@@ -141,22 +154,21 @@ body {
 #gnv {
     text-align: left;
     font: Black 52px/52px Lato;
-    font-size: 52px;
-    font-weight: 900 !important;
+    font-weight: bolder;
     letter-spacing: 0;
     color: #65A949;
 }
 #desconto {
     text-align: left;
-    font: Light 52px/52px Lato !important;
-    font-weight: 300 !important;
+    font: Light 52px/52px Lato;
     letter-spacing: 0;
     color: #FFFFFF;
+    font-weight: 300;
 }
 #projeto {
     text-align: left;
     font: Light 17px/17px Lato;
-    font-weight: lighter;
+    font-weight: 300;
     letter-spacing: 0;
     color: #FFFFFF;
 }
@@ -165,7 +177,7 @@ body {
     font: Bold 17px/17px Lato;
     letter-spacing: 0;
     color: #FFFFFF;
-    font-weight: bolder;
+    font-weight: 600;
 }
 .btn-saiba-mais {
     width: 200px;
@@ -179,11 +191,14 @@ body {
     font-weight: lighter;
     letter-spacing: 0;
     color: #FFFFFF;
-    opacity: 1;
 }
 .btn-saiba-mais:hover {
     text-decoration: none;
     color: #fff;
+}
+
+.btn-saiba-mais:active {
+    padding: 15px;
 }
 
 /** End Slider **/
@@ -307,6 +322,10 @@ body {
     min-height: 120vh;
     max-height: 120vh;
 }
+#lista-projetos {
+    position: relative;
+    left: -40px;
+}
 #projetos .row {
     padding: 0px;
     margin: 0px;
@@ -319,6 +338,10 @@ body {
     color: #696969;
     margin-top: 30px;
     width: 276px;
+}
+.coluna-projetos {
+    padding: 0px !important;
+    margin: 0px !important;
 }
 
 /** End Projetos **/
@@ -388,6 +411,7 @@ body {
 .fale-conosco-formulario input {
     width: 352px;
     height: 28px;
+    padding-left: 15px;
     text-align: left;
     font: Light 17px/17px Lato;
     font-weight: 300;
@@ -401,6 +425,7 @@ body {
 .fale-conosco-formulario textarea {
     width: 352px;
     height: 154px;
+    padding-left: 15px;
     text-align: left;
     font: Light 17px/17px Lato;
     font-weight: 300;
@@ -410,6 +435,26 @@ body {
     border-radius: 5px;
     background: rgba(255, 255, 255, 0.2);
 }
+
+::-webkit-input-placeholder {
+    color: #5A9A40;
+    opacity: 0.2;
+ }
+ 
+ :-moz-placeholder {
+    color: #5A9A40;
+    opacity: 0.2;
+ }
+ 
+ ::-moz-placeholder {
+    color: #5A9A40;
+    opacity: 0.2;
+ }
+ 
+ :-ms-input-placeholder {  
+    color: #5A9A40;
+    opacity: 0.2;
+ }
 
 .fale-conosco-formulario .box-enviar {
     width: 352px;
@@ -479,6 +524,11 @@ body {
 
 #rodape .navbar-expand-sm {
     justify-content: center;
+}
+
+#rodape .nav-link:hover {
+    font: Black 14px/17px Lato !important;
+    font-weight: bolder !important;
 }
 
 #rodape .proprietario p {
