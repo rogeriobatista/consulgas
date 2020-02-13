@@ -28,7 +28,7 @@ body {
 }
 .h6 {
     text-align: left;
-    font: Bold 17px/17px Lato;
+    font: Black 17px/17px Lato;
     letter-spacing: 0;
     color: #5A9A40;
 }
@@ -57,7 +57,7 @@ body {
 .navbar {
     padding-top: 5vh;
 }
-.navbar-nav {
+#navbar-top .navbar-nav {
     margin-left: 50px;
 }
 .navbar .navbar-nav .nav-item .nav-link {
@@ -142,7 +142,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     bottom: -1px;
-    left: -1px;
 }
 #botao-e-imagem .container {
     padding: 15px;
@@ -154,16 +153,15 @@ body {
 #gnv {
     text-align: left;
     font: Black 52px/52px Lato;
-    font-weight: bolder;
+    font-weight: 900;
     letter-spacing: 0;
     color: #65A949;
 }
 #desconto {
     text-align: left;
-    font: Light 52px/52px Lato;
+    font: Black 52px/52px Lato;
     letter-spacing: 0;
     color: #FFFFFF;
-    font-weight: 300;
 }
 #projeto {
     text-align: left;
@@ -174,7 +172,7 @@ body {
 }
 #politica-publica {
     text-align: left;
-    font: Bold 17px/17px Lato;
+    font: Black 17px/17px Lato;
     letter-spacing: 0;
     color: #FFFFFF;
     font-weight: 600;
@@ -278,7 +276,7 @@ body {
 
 .titulo {
     text-align: left;
-    font: Bold 17px/17px Lato;
+    font: Black 17px/17px Lato;
     font-weight: bold;
     letter-spacing: 0;
     color: #5A9A40;
@@ -328,6 +326,7 @@ body {
 }
 #projetos .row {
     padding: 0px;
+    padding-left: 17px;
     margin: 0px;
 }
 #projetos p {
@@ -336,8 +335,10 @@ body {
     font-weight: 300;
     letter-spacing: 0;
     color: #696969;
-    margin-top: 30px;
     width: 276px;
+}
+#projetos .h6 {
+    margin-bottom: 30px;
 }
 .coluna-projetos {
     padding: 0px !important;
@@ -512,14 +513,10 @@ body {
     opacity: 1;
 }
 
-#rodape #navbar-bottom {
-    width: 900px;
-    margin: 0 auto 0 auto;
-}
-
 #rodape .navbar {
     width: 900px !important;
     padding: 10px;
+    margin: 0 auto 0 auto;
 }
 
 #rodape .navbar-expand-sm {
@@ -541,7 +538,8 @@ body {
 
 #rodape .autor p {
     text-align: right;
-    font: Light 13px/17px Lato;
+    font: Light 13px/15px Lato;
+    font-size: 14px;
     letter-spacing: 0;
     color: #696969;
     opacity: 1;
@@ -549,7 +547,7 @@ body {
 
 #rodape .info {
     width: 90%;
-    margin: 100px auto 0 auto;    
+    margin: 90px auto 0 auto;    
 }
 
 /** End Rodape **/
@@ -557,7 +555,7 @@ body {
 /** Btn Back Top **/
 #btnBackTop {
     display: inline-block;
-    background-color: #65A949;
+    background-color: transparent;
     width: 50px;
     height: 50px;
     text-align: center;
@@ -578,7 +576,7 @@ font-weight: normal;
 font-style: normal;
 font-size: 2em;
 line-height: 50px;
-color: #fff;
+color: #65A949;
 }
 #btnBackTop:hover {
 cursor: pointer;
