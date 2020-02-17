@@ -446,7 +446,7 @@
                 <strong>Boletim do mercado</strong>
               </h1>
               <p class="margin-bottom-40" data-selector="p">Veja estatísticas e informações do mercado de Gás Natural.</p>
-              <a href="#" class="btn-saiba-mais" data-selector="a.btn-saiba-mais">Quero saber mais!</a>
+              <a href="boletim.html" class="btn-saiba-mais" data-selector="a.btn-saiba-mais">Quero saber mais!</a>
 
             </div>
 
@@ -476,21 +476,21 @@
             </div>
 
             <div class="col-md-8 col-lg-8">
-              <form class="fale-conosco-formulario">
+              <form class="fale-conosco-formulario" id="formulario-fale-conosco">
                 <div class="form-group">
-                  <input name="" id="" class="" placeholder="Nome"/>
+                  <input name="nome" id="" class="" placeholder="Nome"/>
                 </div>
                 <div class="form-group">
-                  <input name="" id="" class="" placeholder="Email"/>
+                  <input name="email" id="" class="" placeholder="Email"/>
                 </div>
                 <div class="form-group">
-                  <input name="" id="" class="" placeholder="Telefone"/>
+                  <input name="telefone" id="" class="" placeholder="Telefone"/>
                 </div>
                 <div class="form-group">
-                  <textarea name="" id="" class="" placeholder="Mensagem"></textarea>
+                  <textarea name="mensagem" id="" class="" placeholder="Mensagem"></textarea>
                 </div>
                 <div class="form-group box-enviar">
-                  <a href="#" id="btn-enviar">Enviar</a>
+                  <button href="#" id="btn-enviar">Enviar</button>
                 </div>
               </form>
             </div>
@@ -551,6 +551,9 @@
 
       <!-- Latest compiled JavaScript -->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+      <!-- Swal2 -->
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 
       <!-- Custom JS -->
       <script src="assets/js/index.js"></script>

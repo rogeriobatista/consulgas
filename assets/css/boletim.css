@@ -39,13 +39,15 @@ body {
 /** End Custom **/
 
 /** Menu **/
-
+#menu {
+    background: #072F5E 0% 0% no-repeat padding-box;
+}
 #navbar-top {
-    position: absolute;
+    position: relative;
     display: block;
     z-index: 999;
     width: 900px;
-    margin: 0 auto 0 185px;
+    margin: 0 auto 0 auto;
 }
 #navbar {
     position: relative;
@@ -55,7 +57,8 @@ body {
     min-height: 15vh;
 }
 .navbar {
-    padding-top: 5vh;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
 }
 #navbar-top .navbar-nav {
     margin-left: 50px;
@@ -352,20 +355,21 @@ body {
 
 /** Boletim **/
 @media (max-width: 1366px) {
-    #boletim {
-        background-size: 80%;
-    }
 }
 
 #boletim {
     position: relative;
     width: 100%;
-    height: 60vh;
-    min-height: 60vh;
-    max-height: 60vh;
-    background-image: url("../images/boletim-full.svg");
+    height: 50vh;
+    min-height: 50vh;
+    max-height: 50vh;
+}
+#boletim .download-icon {
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/icons/download-consulgas-boletim-do-mercado.svg);
     background-repeat: no-repeat;
-    background-position-x: left;
+    float: right;
 }
 #boletim p {
     text-align: left;
@@ -375,8 +379,23 @@ body {
     color: #696969;
     opacity: 1;
 }
-.saiba-mais-boletim {
-    margin-top: 25vh;
+#boletim #links {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border-top: 1px solid #E8E8E8;
+    border-bottom: 1px solid #E8E8E8;
+    opacity: 1;
+}
+#boletim .link-download-boletim {
+    text-align: left;
+    text-decoration: underline;
+    font: Light 17px/17px Lato;
+    letter-spacing: 0;
+    color: #072F5E;
+    opacity: 1;
+}
+#boletim .saiba-mais-boletim {
+    margin-top: 7vh;
 }
 
 /** End Boletim **/
