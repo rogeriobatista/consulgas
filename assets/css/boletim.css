@@ -42,11 +42,34 @@ body {
 #menu {
     background: #072F5E 0% 0% no-repeat padding-box;
 }
+#btn-voltar {
+    text-align: left;
+    text-decoration: underline;
+    font: Light 14px/17px Lato;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+#btn-voltar:hover {
+    font: Black 14px/17px Lato !important;
+    font-weight: 600;
+    color: #65A949;
+}
+.navbar-brand {
+    display: block;
+    margin: 0 auto 0 auto;
+}
+.navbar-brand-image {
+    width: 120px;
+    height: 60px;
+    border-style: none;
+    border-width: 1px;
+}
 #navbar-top {
     position: relative;
     display: block;
     z-index: 999;
-    width: 900px;
+    width: 80%;
     margin: 0 auto 0 auto;
 }
 #navbar {
@@ -57,8 +80,8 @@ body {
     min-height: 15vh;
 }
 .navbar {
-    padding-top: 7vh;
-    padding-bottom: 7vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 #navbar-top .navbar-nav {
     margin-left: 50px;
