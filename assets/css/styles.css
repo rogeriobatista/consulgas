@@ -93,7 +93,7 @@ body {
         max-height: 95vh !important;
     }
     .carousel-indicators {
-        bottom: 200px !important;
+        bottom: 220px !important;
     }
     #botao-e-imagem .container {
         padding: 15px !important;
@@ -308,7 +308,7 @@ body {
 /** End O que fazemos **/
 
 /** Projetos **/
-@media (max-width: 1366px) {
+@media (max-width: 1640px) {
     #projetos {
         height: 140vh !important;
         min-height: 140vh !important;
@@ -351,7 +351,7 @@ body {
 /** End Projetos **/
 
 /** Boletim **/
-@media (max-width: 1366px) {
+@media (max-width: 1640px) {
     #boletim {
         background-size: 80%;
     }
