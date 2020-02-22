@@ -565,7 +565,7 @@ body {
 }
 
 #rodape .navbar {
-    width: 900px !important;
+    width: 80% !important;
     padding: 10px;
     margin: 0 auto 0 auto;
 }

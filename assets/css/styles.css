@@ -39,23 +39,37 @@ body {
 /** End Custom **/
 
 /** Menu **/
+@media (max-width: 992px) {
+    .navbar ul.nav, .navbar .soc-list {
+        list-style: none;
+        float: left;
+        z-index: 5;
+        margin: 0;
+        margin-left: 100px;
+    }
+    #navbar-top {
+        margin-left: 0px !important;
+        width: 100% !important;
+    }
+}
 
 #navbar-top {
     position: absolute;
     display: block;
     z-index: 999;
-    width: 900px;
+    width: 80%;
     margin: 0 auto 0 185px;
 }
-#navbar {
-    position: relative;
-    background: #072F5E 0% 0% no-repeat padding-box;
-    height: 15vh;
-    max-height: 15vh;
-    min-height: 15vh;
-}
+
 .navbar {
     padding-top: 5vh;
+}
+.navbar-brand img {
+    width: 120px;
+    height: 60px;
+}
+.navbar-toggler {
+    color: #5A9A40;
 }
 #navbar-top .navbar-nav {
     margin-left: 50px;
@@ -73,15 +87,6 @@ body {
     font-weight: 600;
     color: #65A949;
  }
-@media (min-width: 992px) {
-    .navbar ul.nav, .navbar .soc-list {
-        list-style: none;
-        float: left;
-        z-index: 5;
-        margin: 0;
-        margin-left: 100px;
-    }
-}
 
 /** End Menu **/
 
@@ -206,6 +211,12 @@ body {
 
 /** Quem Somos **/
 
+@media (max-width: 992px) {
+    #quem-somos-texto {
+        width: 100% !important;
+    }
+}
+
 #quem-somos {
     margin-bottom: 15vh;
     height: 40vh;
@@ -232,6 +243,14 @@ body {
         height: 200vh !important;
         min-height: 200vh !important;
         max-height: 200vh !important;
+    }
+}
+@media (max-width: 992px) {
+    #o-que-fazemos-texto {
+        width: 100% !important;
+    }
+    .descricao {
+        width: 100% !important;
     }
 }
 #o-que-fazemos {
@@ -357,6 +376,12 @@ body {
     }
 }
 
+@media (max-width: 992px) {
+    #boletim {
+        display: none;
+    }
+}
+
 #boletim {
     position: relative;
     width: 100%;
@@ -388,6 +413,19 @@ body {
         height: 80vh !important;
         min-height: 80vh !important;
         max-height: 80vh !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .fale-conosco-formulario input {
+        width: 100% !important;
+    }
+    
+    .fale-conosco-formulario textarea {
+        width: 100% !important;
+    }
+    .fale-conosco-formulario .box-enviar {
+        width: 100% !important;
     }
 }
 
@@ -523,7 +561,7 @@ body {
 }
 
 #rodape .navbar {
-    width: 900px !important;
+    width: 80% !important;
     padding: 10px;
     margin: 0 auto 0 auto;
 }
