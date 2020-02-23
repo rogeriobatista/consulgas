@@ -383,9 +383,9 @@ body {
 @media (max-width: 992px) {
     #projetos {
         padding-top: 50px !important;
-        height: 200vh !important;
-        min-height: 200vh !important;
-        max-height: 200vh !important;
+        height: 210vh !important;
+        min-height: 210vh !important;
+        max-height: 210vh !important;
     }
     #projetos p {
         width: 100% !important;
