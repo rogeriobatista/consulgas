@@ -12,6 +12,17 @@ body {
         padding-left: 110px !important;
     }
 }
+@media (max-width: 992px) {
+    .container {
+        padding-left: 20px !important;
+    }
+    .h1 {
+        text-align: center !important;
+    }
+    .hide-mobile {
+        display: none !important;
+    }
+}
 .margin-bottom-40 {
     margin-bottom: 40px;
 }
@@ -21,7 +32,7 @@ body {
 .h1 {
     font-size: 52px;
     font-weight: 900 !important;
-    text-align: left !important;
+    text-align: left;
     font: Black 52px/49px Lato !important;
     letter-spacing: 0;
     color: #65A949;
@@ -50,6 +61,9 @@ body {
     #navbar-top {
         margin-left: 0px !important;
         width: 100% !important;
+    }
+    .navbar-collapse {
+        background-color: #072F5E !important;
     }
 }
 
@@ -103,6 +117,15 @@ body {
     #botao-e-imagem .container {
         padding: 15px !important;
         padding-top: 20vh !important;
+    }
+}
+@media (max-width: 992px) {
+    #botao-e-imagem:after {
+        content: '';
+        background: transparent !important;
+    }
+    .carousel-indicators {
+        bottom: 20px !important;
     }
 }
 #botao-e-imagem #slider img {
@@ -212,6 +235,12 @@ body {
 /** Quem Somos **/
 
 @media (max-width: 992px) {
+    #quem-somos {
+        height: 60vh !important;
+        min-height: 60vh !important;
+        max-height: 60vh !important;
+        padding-top: 50px !important;
+    }
     #quem-somos-texto {
         width: 100% !important;
     }
@@ -246,11 +275,27 @@ body {
     }
 }
 @media (max-width: 992px) {
+    #o-que-fazemos {
+        background: #072F5E !important;
+        height: 300vh !important;
+        min-height: 300vh !important;
+        max-height: 300vh !important;
+    }
     #o-que-fazemos-texto {
         width: 100% !important;
     }
     .descricao {
         width: 100% !important;
+    }
+    .circulo {
+        width: 48px !important;
+        margin-left: 0px !important;
+    }
+    .circulo img {
+        width: 100% !important;
+    }
+    .ponto {
+        display: none !important;
     }
 }
 #o-que-fazemos {
@@ -335,6 +380,23 @@ body {
     }
 }
 
+@media (max-width: 992px) {
+    #projetos {
+        padding-top: 50px !important;
+        height: 200vh !important;
+        min-height: 200vh !important;
+        max-height: 200vh !important;
+    }
+    #projetos p {
+        width: 100% !important;
+    }
+    .projetos-mobile {
+        padding: 0px !important;
+        margin: 0px !important;
+        margin-top: 30px !important;
+    }
+}
+
 #projetos {
     position: relative;
     width: 100%;
@@ -376,12 +438,6 @@ body {
     }
 }
 
-@media (max-width: 992px) {
-    #boletim {
-        display: none;
-    }
-}
-
 #boletim {
     position: relative;
     width: 100%;
@@ -417,6 +473,12 @@ body {
 }
 
 @media (max-width: 992px) {
+    #fale-conosco {
+        height: 100vh !important;
+        min-height: 100vh !important;
+        max-height: 100vh !important;
+    }
+
     .fale-conosco-formulario input {
         width: 100% !important;
     }
@@ -426,6 +488,10 @@ body {
     }
     .fale-conosco-formulario .box-enviar {
         width: 100% !important;
+    }
+
+    #fale-conosco .whatsapp {
+        margin-bottom: 30px !important;
     }
 }
 
@@ -545,6 +611,25 @@ body {
 /** End Logo **/
 
 /** Rodape **/
+
+@media (max-width: 992px) {
+    #rodape .info {
+        width: 90% !important;
+    }
+    #rodape .proprietario {
+        text-align: center !important;
+    }
+    #rodape .autor {
+        margin-top: 30px !important;
+    }
+    #rodape .autor p {
+        text-align: center !important;
+    }
+    #rodape #imagem-autor {
+        display: block !important;
+        margin: 0 auto 0 auto !important;
+    }
+}
 
 #rodape {
     margin-top: 50px;
