@@ -474,9 +474,9 @@ body {
 
 @media (max-width: 992px) {
     #fale-conosco {
-        height: 100vh !important;
-        min-height: 100vh !important;
-        max-height: 100vh !important;
+        height: 110vh !important;
+        min-height: 110vh !important;
+        max-height: 110vh !important;
     }
 
     .fale-conosco-formulario input {
